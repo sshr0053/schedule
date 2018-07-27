@@ -5,7 +5,7 @@ import * as actions  from '../../actions'
 import Icon from '../icon';
 import Arrow from '../arrow';
 import Action from '../action';
-import ScheduleCourse from '../schedule/scheduleCourse';
+
 
 class LibraryCourse extends Component {
     render() {

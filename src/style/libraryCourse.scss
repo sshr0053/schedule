@@ -4,6 +4,7 @@
     grid-template-rows: 32px 1fr;
 
     align-items: center;
+    z-index: 50;
 
     &__title-check {
         grid-row: 1/2;
@@ -19,6 +20,7 @@
         transition: all .3s ease;
         grid-row: 1/2;
         grid-column: 3/4;
+
         justify-self: center;
       
     }
@@ -51,7 +53,6 @@
       }
    }
 
-   }
 
    &__title {
        color: $color-gray;
@@ -83,3 +84,4 @@
        }
    }
 
+}

@@ -14,7 +14,7 @@ class Action extends Component {
         if(!this.status) {
             document.getElementById(this.id).classList.add('action-remove');
         } else {
-        document.getElementById(this.id).classList.remove('action-remove');
+            document.getElementById(this.id).classList.remove('action-remove');
         }
         this.status = !this.status;
     }.bind(this);
@@ -26,7 +26,6 @@ class Action extends Component {
           id={this.id}
           onClick={() => this.handleAction()}
           className={`${this.props.className} action`}>
-
           </a>
        )
     }

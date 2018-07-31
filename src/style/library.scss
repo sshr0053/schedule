@@ -22,10 +22,8 @@
       height: 100%;
       width: 100%;
 
-      right: -10px;
-
       position: absolute;
-
+      right: -10px;
 
     &__title {
       color: $color-blue;
@@ -35,5 +33,5 @@
       border-left: 2px solid $color-blue;
       padding: 20px 40px;
     }
-    }
+  }
 }

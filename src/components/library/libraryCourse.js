@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import * as actions from '../../actions';
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import * as actions from "../../actions";
 
-import Icon from '../icon';
-import Arrow from '../arrow';
-import Action from '../action';
+import Icon from "../icon";
+import Arrow from "../arrow";
+import Action from "../action";
 
-import AnimateHeight from 'react-animate-height';
+import AnimateHeight from "react-animate-height";
 
 
 class LibraryCourse extends Component {
